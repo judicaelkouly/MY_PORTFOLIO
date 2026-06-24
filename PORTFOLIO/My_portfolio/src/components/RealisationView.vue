@@ -10,7 +10,7 @@
         <div class="w-16 h-1 bg-indigo-500 mx-auto rounded-full mt-4"></div>
       </div>
 
-      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-16 gap-x-10 mt-6 mb-12">
+      <section class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-16 gap-x-10 mt-6 mb-12">
 
         <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
@@ -18,20 +18,25 @@
             <div>
               <div class="tech-icons">
                 <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="skill-icons:typescript" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
+
               </div>
               <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
+                 <span class="font-bold">Application de Gestion de Notes</span> <br>
+                  Développement complet d'une interface dynamique de gestion de notes connectée en temps réel à une API REST externe. <br>
+                 <span class="font-bold">Technologies :</span>  Vue.js 3 (Composition API), TypeScript, Tailwind CSS, Axios.
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" target="_blank" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
                 </button>
               </a>
-              <a href="#" class="inline-block">
+              <a href="https://my-post-it-app-seven.vercel.app/" target="_blank" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16"/>
                   <span>Visiter</span>
@@ -48,14 +53,19 @@
               <div class="tech-icons">
                 <div class="tech-icon"><Icon icon="logos:laravel" width="22"/></div>
                 <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
+                <div class="tech-icon"><Icon icon="skill-icons:css" width="24"/></div>
               </div>
               <p class="text-xl font-bold text-white truncate block capitalize mb-2">YOWL</p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
+                Application web participative et centralisée visant à décentraliser les espaces de discussion et à permettre
+                aux utilisateurs de commenter n'importe quel contenu ou site web de l'Internet. <br>
+                <span class="font-bold">Technologies :</span> Laravel (API), Vue.js (Frontend), SQL, GitHub. <br>
+                <span class="font-bold">Fonctionnalités clés :</span>  Authentification sécurisée, système de commentaires communautaires interconnectés
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
@@ -72,28 +82,65 @@
         </div>
 
         <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
-          <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
+          <img src="/public/movies.png" alt="movies_project_screem" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
               <div class="tech-icons">
-                <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="logos:nestjs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="logos:nextjs-icon" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Gorge Movies</p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
-              </p>
+                Plateforme web d'exploration, de notation et de critique de films inspirée du célèbre site Rotten Tomatoes. <br>
+                <span class="font-bold">Technologies :</span> Nest.js, Next.js, Tailwind CSS, MongoDB, Git. <br>
+                 <span class="font-bold">Fonctionnalités clés :</span> Authentification, gestion de favoris, filtres avancés (genres, dates), espace commentaires et
+                tableau de bord administrateur (CRUD utilisateurs/films et statistiques).
+
+                          </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
                 </button>
               </a>
-              <a href="#" class="inline-block">
+              <a href="https://gorge-movie.vercel.app/" target="_blank" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16"/>
                   <span>Visiter</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+          <img src="/public/trel.jpeg" alt="TrellTech_Project_image" class="w-full aspect-video object-cover" />
+          <div class="px-5 py-5 flex flex-col flex-1 justify-between">
+            <div>
+              <div class="tech-icons">
+                <div class="tech-icon"><Icon icon="devicon:reactnative" width="24"/></div>
+              </div>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">TrellTech</p>
+              <p class="text-gray-300 text-sm leading-relaxed mb-6">
+              Application mobile pour la gestion de tâches, axée sur
+              la consommation d'API sécurisées de Trello et une expérience utilisateur (UI/UX) soignée. <br>
+              <span class="font-bold">Technologies :</span> React Native, API Trello, OAuth2. <br>
+              </p>
+            </div>
+            <div class="flex items-center justify-between gap-4 mt-auto">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
+                <button class="btn-github">
+                  <Icon icon="ri:github-fill" width="16"/>
+                  <span>Github</span>
+                </button>
+              </a>
+              <a href="https://expo.dev/artifacts/eas/bGbn2At4ZJ4ox7PuF2aE1j.apk" class="inline-block">
+                <button class="btn-github">
+                  <Icon icon="solar:link-outline" width="16"/>
+                  <span>Télécharger</span>
                 </button>
               </a>
             </div>
@@ -113,36 +160,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
-                <button class="btn-github">
-                  <Icon icon="ri:github-fill" width="16"/>
-                  <span>Github</span>
-                </button>
-              </a>
-              <a href="#" class="inline-block">
-                <button class="btn-github">
-                  <Icon icon="solar:link-outline" width="16"/>
-                  <span>Visiter</span>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
-          <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
-          <div class="px-5 py-5 flex flex-col flex-1 justify-between">
-            <div>
-              <div class="tech-icons">
-                <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
-              </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
-              <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
-              </p>
-            </div>
-            <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
@@ -171,13 +189,13 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
                 </button>
               </a>
-              <a href="#" class="inline-block">
+              <a href="https://github.com/judicaelkouly" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16" />
                   <span>Visiter</span>

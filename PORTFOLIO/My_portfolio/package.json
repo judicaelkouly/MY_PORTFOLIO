@@ -13,10 +13,12 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@iconify/vue": "^5.0.1",
     "@tailwindcss/vite": "^4.3.0",
     "bootstrap-icons": "^1.13.1",
     "chart.js": "^4.5.1",
+    "emailjs": "^5.0.1",
     "iconify-icon": "^3.0.2",
     "oh-vue-icons": "^1.0.0-rc3",
     "tailwindcss": "^4.3.0",

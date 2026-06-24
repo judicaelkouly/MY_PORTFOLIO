@@ -18,7 +18,7 @@
         <ul class="space-y-2 text-sm">
           <li class="flex items-center gap-2 hover:text-cyan-400 transition-colors">
             <Icon icon="lucide:mail" width="16" class="text-cyan-400" />
-            <a href="mailto:contact@votre-email.com">Envoyer un message</a>
+            <a href="mailto:judicael.kouli@epitech.eu">Envoyer un message</a>
           </li>
           <li class="flex items-center gap-2 text-slate-400">
             <Icon icon="lucide:map-pin" width="16" class="text-cyan-400" />
@@ -33,11 +33,11 @@
         <p class="text-sm text-slate-400 mb-2">Suivez mes projets ou échangeons ensemble :</p>
         <div class="flex items-center gap-4 text-cyan-400">
           <!-- LinkedIn -->
-          <a href="https://linkedin.com" target="_blank" rel="noopener" class="p-2 rounded-lg bg-[#0d1436] border border-cyan-500/10 hover:border-cyan-400 hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/kouli" target="_blank" class="p-2 rounded-lg bg-[#0d1436] border border-cyan-500/10 hover:border-cyan-400 hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md" title="LinkedIn">
             <Icon icon="lucide:linkedin" width="20" />
           </a>
           <!-- GitHub -->
-          <a href="https://github.com" target="_blank" rel="noopener" class="p-2 rounded-lg bg-[#0d1436] border border-cyan-500/10 hover:border-cyan-400 hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md" title="GitHub">
+          <a href="https://github.com/judicaelkouly" target="_blank" class="p-2 rounded-lg bg-[#0d1436] border border-cyan-500/10 hover:border-cyan-400 hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md" title="GitHub">
             <Icon icon="lucide:github" width="20" />
           </a>
         </div>
