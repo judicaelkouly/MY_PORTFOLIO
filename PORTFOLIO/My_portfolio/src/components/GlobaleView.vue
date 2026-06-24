@@ -138,7 +138,7 @@
 
       <!-- About content -->
        <div v-show="activeTab === 'about'" class="view-fade">
-        <div class=" dark:bg-gray-800 ">
+        <div class="">
           <!-- From Uiverse.io by pharmacist-sabot -->
 <div class="nhost-card w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
   <div class="card-glow"></div>
@@ -273,7 +273,6 @@ function useTypewriter(phrases) {
 
 const typedText = useTypewriter([
   'Développeur Full-Stack Junior',
-  'Consultant E-commerce & Marketing',
   'Concepteur d’Applications Web'
 ])
 
