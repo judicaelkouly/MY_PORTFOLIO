@@ -25,7 +25,11 @@
     <!-- Section Intérêts Personnels -->
     <section class="bg-animated cyber-grid py-16 relative overflow-hidden max-w-6xl mx-auto px-4">
       <div class="container mx-auto">
-        <h2 class="text-3xl text-[#00e5ff] font-bold mb-12 text-center lg:text-left">Intérêts personnels</h2>
+        <!-- <h2 class="text-3xl text-[#00e5ff] font-bold mb-12 text-center lg:text-left">Intérêts personnels</h2> -->
+        <div class="flex items-center justify-center lg:justify-start gap-4 mb-12">
+          <Icon icon="ic:outline-interests" width="45" class="shrink-0" color="cyan"/>
+          <h2 class="text-3xl text-[#00e5ff] font-bold">Intérêts personnels</h2>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <!-- Codage -->
@@ -79,7 +83,10 @@
 
     <!-- Section Parcours Académique -->
     <section class="py-16 max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl text-[#00e5ff] font-bold mb-12 text-center lg:text-left">Mon parcours académique</h2>
+        <div class="flex items-center justify-center lg:justify-start gap-4 mb-12">
+          <Icon icon="noto:graduation-cap" width="45" class="shrink-0" />
+          <h2 class="text-3xl text-[#00e5ff] font-bold">Mon parcours académique</h2>
+        </div>
 
       <div class="w-full max-w-3xl mx-auto">
         <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-700 before:to-transparent">
@@ -89,14 +96,18 @@
             <div class="md:flex items-center md:space-x-4 mb-3">
               <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
-                  <Icon icon="flowbite:school-outline" width="22" class="text-gray-900"/>
+                  <Icon icon="mdi:code" width="22" class="text-gray-900"/>
                 </div>
                 <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2025-2026</time>
               </div>
             </div>
             <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
               <h3 class="text-lg font-bold text-white mb-1">Développeur Full-Stack</h3>
-              <p class="text-sm text-slate-300">Programme de formation intensive We.Code</p>
+              <p class="text-sm text-cyan-400 font-medium mb-2">We.Code — Formation Intensive</p>
+              <p class="text-sm text-slate-300 leading-relaxed">
+                +1000 heures de code intensives axées sur la pratique. Conception d'applications web modernes, gestion des bases de données et déploiement de solutions d'envergure.
+              </p>
+
             </div>
           </div>
 
@@ -105,14 +116,18 @@
             <div class="md:flex items-center md:space-x-4 mb-3">
               <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
-                  <Icon icon="flowbite:school-outline" width="22" class="text-gray-900"/>
+                  <Icon icon="maki:college" width="22" class="text-gray-900"/>
                 </div>
                 <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2024-2025</time>
               </div>
             </div>
             <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 border-custom transition-colors">
-              <h3 class="text-lg font-bold text-white mb-1">Licence en E-commerce et Marketing Digital</h3>
-              <p class="text-sm text-slate-300">Université Virtuelle de Côte d'Ivoire (UVCI)</p>
+              <h3 class="text-lg font-bold text-white mb-1">Licence en E-commerce & Marketing Digital</h3>
+              <p class="text-sm text-cyan-400 font-medium mb-2">Université Virtuelle de Côte d'Ivoire (UVCI)</p>
+              <p class="text-sm text-slate-300 leading-relaxed">
+                Spécialisation en stratégies d'acquisition, SEO, gestion de projets digitaux et analyse de données. Une vision business qui complète parfaitement mon profil de développeur.
+              </p>
+
             </div>
           </div>
 
@@ -121,14 +136,18 @@
             <div class="md:flex items-center md:space-x-4 mb-3">
               <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
-                  <Icon icon="flowbite:school-outline" width="22" class="text-gray-900"/>
+                  <Icon icon="map:university" width="22" class="text-gray-900"/>
                 </div>
                 <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2021-2022</time>
               </div>
             </div>
             <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
-              <h3 class="text-lg font-bold text-white mb-1">Baccalauréat (BAC)</h3>
-              <p class="text-sm text-slate-300">Lycée Moderne de Bondoukou</p>
+             <h3 class="text-lg font-bold text-white mb-1">Baccalauréat (BAC)</h3>
+              <p class="text-sm text-cyan-400 font-medium mb-2">Lycée Moderne de Bondoukou</p>
+              <p class="text-sm text-slate-300">
+                Diplôme de fin d'études secondaires.
+              </p>
+
             </div>
           </div>
 
