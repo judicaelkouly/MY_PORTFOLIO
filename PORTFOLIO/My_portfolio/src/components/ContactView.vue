@@ -5,6 +5,11 @@
     </h1>
     <div class="w-12 h-1 bg-indigo-500 mx-auto rounded-full mt-3"></div>
 
+    <!-- Nouveau paragraphe captivant -->
+    <p class="text-center  mt-6 max-w-xl mx-auto px-6 text-base sm:text-lg leading-relaxed">
+      Un projet en tête, une opportunité de collaboration ou simplement envie d'échanger sur les dernières technos ? Choisissez le canal qui vous convient le mieux, je serai ravi de vous répondre !
+    </p>
+
     <div class="container px-6 py-12 mx-auto">
       <div class="lg:flex lg:items-stretch lg:-mx-6 gap-8">
 

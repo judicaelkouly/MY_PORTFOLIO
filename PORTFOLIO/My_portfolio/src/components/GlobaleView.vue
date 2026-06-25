@@ -1,8 +1,8 @@
 <template>
   <!-- Loader initial -->
-  <div v-if="isLoading" class="fixed inset-0 z-50 flex items-center justify-center">
+  <div v-if="isLoading" class="fixed inset-0 z-50 flex flex-col items-center justify-center">
 
-<div class="svg-frame">
+<div class="svg-frame relative flex items-center justify-center">
 	<svg style="--i:0;--j:0;">
 		<g id="out1">
 			<path d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z"></path>
@@ -47,6 +47,10 @@
 	</svg>
 
 </div>
+    <h2 class="text-xl text-[#00e5ff] font-bold tracking-wider mt-6 animate-pulse">
+    veuillez patientez...
+  </h2>
+
   </div>
   <div v-else class="overflow-hidden flex h-screen text-body">
 
@@ -150,7 +154,7 @@
 
         <Icon icon="material-icon-theme:vscode" width="25"/>
       </div>
-      <span class="brand-text">Judicael Kouli</span>
+      <span class="brand-text">Développeur Full-Stack</span>
     </div>
 
     <div class="action-buttons">
