@@ -10,7 +10,7 @@
       </div>
 
       <div class="text-sm max-w-xl text-center lg:text-left">
-        <h1 class="text-2xl md:text-3xl font-semibold text-slate-100 dark:text-white">Un peu à propos de moi...</h1>
+        <h1 class="text-2xl md:text-3xl font-semibold text-slate-100 dark:text-white">À propos de moi...</h1>
         <div class="w-24 h-[3px] rounded-full bg-gradient-to-r from-indigo-600 to-[#DDD9FF] mx-auto lg:mx-0 mt-2"></div>
 
         <p class="mt-6 text-base md:text-lg leading-relaxed text-slate-300 dark:text-gray-300">

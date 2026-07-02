@@ -148,15 +148,20 @@
         </div>
 
         <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
-          <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
+          <img src="/public/myContact.jpeg" alt="MyContacts_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
               <div class="tech-icons">
                 <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="skill-icons:typescript" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">MyContacts</p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
+                Une application web moderne et sécurisée pour centraliser, rechercher et gérer ses contacts en un clic. Développée
+                avec une architecture CRUD complète connectée à une API REST. <br>
+                <span class="font-bold">Technologies :</span> Vue.js 3 (Composition API), TypeScript, Tailwind CSS, Axios. <br>
+                <span class="font-bold">Fonctionnalités clés :</span> Authentification sécurisée, gestion des contacts (CRUD), recherche et filtrage avancé.
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
@@ -166,7 +171,7 @@
                   <span>Github</span>
                 </button>
               </a>
-              <a href="#" class="inline-block">
+              <a href="https://my-contacts-theta.vercel.app/" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16" />
                   <span>Visiter</span>
