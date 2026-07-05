@@ -205,7 +205,6 @@
 
       <!-- Realisations content -->
       <div v-show="activeTab === 'realisations'" class="view-fade">
-        <h1 class=" font-bold text-4xl mb-6">Mes Réalisations</h1>
         <RealisationView/>
       </div>
 
