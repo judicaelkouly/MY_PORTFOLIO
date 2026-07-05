@@ -186,11 +186,17 @@
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
               <div class="tech-icons">
-                <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:nestjs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="logos:nodejs-icon" width="24"/></div>
+                <div class="tech-icon"><Icon icon="selfhst:mongodb" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">My Show Time</p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt laudantium! Molestias perspiciatis eius eveniet! Saepe ducimus recusandae ipsam porro enim repudiandae praesentium voluptatem ab a, laboriosam molestias sint dolorum!
+                Une plateforme web complète de billetterie événementielle propulsée par NestJS et MongoDB,
+                intégrant une gestion fine des utilisateurs (alertes, QR codes) et un panneau d'administration basé sur les données. <br>
+                <span class="font-bold">Technologies :</span> NestJS, MongoDB, Node.js. <br>
+                <span class="font-bold">Fonctionnalités clés :</span> Recherche et filtres, système de favoris avec alertes, et création automatique de QR codes pour les billets.
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
@@ -200,7 +206,7 @@
                   <span>Github</span>
                 </button>
               </a>
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16" />
                   <span>Visiter</span>
@@ -209,6 +215,39 @@
             </div>
           </div>
         </div>
+                <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+          <img src="/public/port.jpeg" alt="Portfolio_Project_image" class="w-full aspect-video object-cover" />
+          <div class="px-5 py-5 flex flex-col flex-1 justify-between">
+            <div>
+              <div class="tech-icons">
+                <div class="tech-icon"><Icon icon="devicon:vuejs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
+                <div class="tech-icon"><Icon icon="skill-icons:css" width="24"/></div>
+              </div>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Mon Portfolio</p>
+              <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                Vitrine numérique personnelle conçue pour présenter mes compétences techniques, mes projets réalisés et mon parcours de développeur. <br>
+                <span class="font-bold">Technologies :</span> Vue.js 3, Tailwind CSS, JavaScript. <br>
+                <span class="font-bold">Fonctionnalités clés :</span> Interface responsive et moderne, composants dynamiques, intégration d'effets visuels personnalisés et optimisation du SEO.
+              </p>
+            </div>
+            <div class="flex items-center justify-between gap-4 mt-auto">
+              <a href="https://github.com/judicaelkouly" target="_blank" class="inline-block">
+                <button class="btn-github">
+                  <Icon icon="ri:github-fill" width="16" />
+                  <span>Github</span>
+                </button>
+              </a>
+              <a href="https://my-portfolio-tan-five-64.vercel.app/" class="inline-block">
+                <button class="btn-github">
+                  <Icon icon="solar:link-outline" width="16" />
+                  <span>Visiter</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
 
       </section>
     </main>
