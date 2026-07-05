@@ -30,7 +30,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" target="_blank" class="inline-block">
+              <a href="https://github.com/judicaelkouly/Post-it_app" target="_blank" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
@@ -65,7 +65,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="/forbiden" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
@@ -100,7 +100,7 @@
                           </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="/forbiden" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
@@ -131,7 +131,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="/forbiden" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
@@ -165,7 +165,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="https://github.com/judicaelkouly/Contacts_app" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16"/>
                   <span>Github</span>
@@ -200,7 +200,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" class="inline-block">
+              <a href="/forbiden" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
@@ -232,7 +232,7 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/judicaelkouly" target="_blank" class="inline-block">
+              <a href="https://github.com/judicaelkouly/MY_PORTFOLIO" target="_blank" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
