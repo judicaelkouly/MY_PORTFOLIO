@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-gray-900 border border-custom rounded-xl">
+  <section class="border border-custom rounded-xl">
     <h1 class="text-center font-extrabold text-[#00e5ff] text-3xl mt-12 tracking-tight">
       Me contacter
     </h1>

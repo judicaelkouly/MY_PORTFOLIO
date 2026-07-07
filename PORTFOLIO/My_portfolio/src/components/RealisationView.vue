@@ -12,7 +12,7 @@
 
       <section class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-16 gap-x-10 mt-6 mb-12">
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/pos.png" alt="Yowl_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/movies.png" alt="movies_project_screem" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -116,7 +116,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/trel.jpeg" alt="TrellTech_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -147,7 +147,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/myContact.jpeg" alt="MyContacts_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -181,7 +181,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -215,7 +215,7 @@
             </div>
           </div>
         </div>
-                <div class="w-full max-w-[360px] bg-[#0d1436] border border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/port.jpeg" alt="Portfolio_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
