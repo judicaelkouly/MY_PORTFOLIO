@@ -57,49 +57,49 @@
         </div>
 
         <div class="mt-8 lg:w-1/2 lg:mx-6">
-          <div class="w-full px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+          <div class="w-full px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50">
             <h1 class="text-lg font-medium text-[#00e5ff] text-center">M'envoyer un message</h1>
 
             <form class="mt-6" ref="form" @submit.prevent="sendEmail">
               <div class="flex-1">
-                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                <label class="block mb-2 text-sm text-gray-600 dar:text-gray-200">Full Name</label>
                 <input
                   type="text"
                   placeholder="John Doe"
                   name="full-name"
                   required
-                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dar:placeholder-gray-600 dar:bg-gray-900 dar:text-gray-300 dar:border-gray-700 focus:border-blue-400 dar:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
 
               <div class="flex-1 mt-6">
-                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                <label class="block mb-2 text-sm text-gray-600 dar:text-gray-200">Email address</label>
                 <input
                   type="email"
                   placeholder="johndoe@example.com"
                   name="email"
                   required
-                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dar:placeholder-gray-600 dar:bg-gray-900 dar:text-gray-300 dar:border-gray-700 focus:border-blue-400 dar:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
 
               <div class="flex-1 mt-6">
-                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Sujet</label>
+                <label class="block mb-2 text-sm text-gray-600 dar:text-gray-200">Sujet</label>
                 <input
                   type="text"
                   placeholder="sujet*"
                   name="subject"
                   required
-                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md dar:placeholder-gray-600 dar:bg-gray-900 dar:text-gray-300 dar:border-gray-700 focus:border-blue-400 dar:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
 
               <div class="w-full mt-6">
-                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                <label class="block mb-2 text-sm text-gray-600 dar:text-gray-200">Message</label>
                 <textarea
                   name="message"
                   required
-                  class="block w-full h-32 px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full h-32 px-5 py-3 mt-2 placeholder-gray-400 border border-custom rounded-md md:h-48 dar:placeholder-gray-600 dar:bg-gray-900 dar:text-gray-300 dar:border-gray-700 focus:border-blue-400 dar:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Message"
                 ></textarea>
               </div>
