@@ -57,7 +57,7 @@
         </div>
 
         <div class="mt-8 lg:w-1/2 lg:mx-6">
-          <div class="w-full px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+          <div class="w-full px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
             <h1 class="text-lg font-medium text-[#00e5ff] text-center">M'envoyer un message</h1>
 
             <form class="mt-6" ref="form" @submit.prevent="sendEmail">
