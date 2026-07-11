@@ -143,49 +143,57 @@
       <!-- About content -->
        <div v-show="activeTab === 'about'" class="view-fade">
         <div class="">
-          <!-- From Uiverse.io by pharmacist-sabot -->
+
+        <!-- card typedWel-->
 <div class="nhost-card w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
   <div class="card-glow"></div>
   <div class="card-grid"></div>
 
+  <!-- Header : Logo et bouton GitHub -->
   <div class="card-header">
     <div class="brand-wrapper">
       <div class="logo-container">
-
         <Icon icon="material-icon-theme:vscode" width="25"/>
       </div>
       <span class="brand-text">Développeur Full-Stack</span>
     </div>
 
     <div class="action-buttons">
-
       <a class="btn-icon" aria-label="View on GitHub" href="https://github.com/judicaelkouly">
-        <svg
-          class="icon github"
-          viewBox="0 0 16 16"
-          version="1.1"
-          aria-hidden="true"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-          ></path>
+        <svg class="icon github" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
         </svg>
       </a>
     </div>
   </div>
 
+  <!-- Body : Contenu principal -->
   <div class="card-body">
-    <div class="repo-title ">{{ typedWel }}<span class="blinking-cursor"></span></div>
+    <div class="repo-title">{{ typedWel }}<span class="blinking-cursor"></span></div>
 
-    <div class="tag-wrapper">
+    <!-- Ligne de contact et statut (Flexbox alignment) -->
+    <div class="tag-wrapper flex justify-between items-center w-full mt-2">
 
-      <a href="mailto:judicael.kouli@epitech.eu"><span class="badge badge-ts"><Icon icon="ic:outline-email" width="25"/></span></a>
-      <a href="https://www.linkedin.com/in/kouli"><span class="badge badge-ts"><Icon icon="mdi:linkedin" width="25"/></span></a>
+      <!-- Groupe de boutons à gauche -->
+      <div class="flex items-center space-x-2">
+        <a href="mailto:judicael.kouli@epitech.eu"><span class="badge badge-ts"><Icon icon="ic:outline-email" width="25"/></span></a>
+        <a href="https://www.linkedin.com/in/kouli"><span class="badge badge-ts"><Icon icon="mdi:linkedin" width="25"/></span></a>
+      </div>
+        
+      <!-- Statut "Disponible" propulsé à droite -->
+      <div class="flex items-center space-x-2 text-[12px] font-mono text-slate-400">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
+        <span>Disponible</span>
+      </div>
 
     </div>
   </div>
 </div>
+
+
 
     <div class=" w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h1 class="">
@@ -230,11 +238,11 @@ import RealisationView from './RealisationView.vue'
 
 Chart.register(...registerables)
 
-// ─── Loader initial ──────────────────────────────────────
+// Loader initial
 const isLoading = ref(true)
 const LOADER_DURATION = 3500 // entre 3000 et 4000 ms
 
-// ─── State ───────────────────────────────────────────────
+//  State
 const activeTab = ref('about')
 const isDark = ref(false)
 const sidebarOpen = ref(false)
@@ -245,7 +253,7 @@ const chartStatusRef = ref(null)
 let chart1 = null
 let chart2 = null
 
-// ─── Typewriter (composable inline) ──────────────────────
+//  Typewriter (composable inline)
 function useTypewriter(phrases) {
   const text = ref('')
   let phraseIndex = 0, charIndex = 0, deleting = false, timer = null
@@ -282,12 +290,10 @@ const typedText = useTypewriter([
 const typedWel = useTypewriter([
   'Bienvenue sur mon porfolio',
   'Propulsez votre présence digitale',
-  'Allier stratégie métier et excellence technique',
-  'Architecte de vos ambitions numériques',
   'Concevoir des produits à forte valeur ajoutée'
 ])
 
-// ─── Theme ───────────────────────────────────────────────
+//  Theme
 function toggleTheme() {
   isDark.value = !isDark.value
   document.documentElement.classList.toggle('dark', isDark.value)
@@ -295,12 +301,12 @@ function toggleTheme() {
   updateChartsTheme()
 }
 
-// ─── Sidebar ─────────────────────────────────────────────
+// Sidebar
 function toggleSidebar() {
   sidebarOpen.value = !sidebarOpen.value
 }
 
-// ─── Navigation ──────────────────────────────────────────
+// Navigation
 function switchTab(tab) {
   activeTab.value = tab
   if (window.innerWidth < 768) sidebarOpen.value = false
@@ -313,7 +319,7 @@ function switchTab(tab) {
   }
 }
 
-// ─── Charts ──────────────────────────────────────────────
+// Charts
 function initCharts() {
   if (!chartTrenRef.value || !chartStatusRef.value) return
 

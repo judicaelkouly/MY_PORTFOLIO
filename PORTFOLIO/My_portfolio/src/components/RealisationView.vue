@@ -5,7 +5,7 @@
 
       <div class="text-center py-12">
         <h1 class="font-extrabold text-[#00e5ff] text-4xl mb-4 tracking-tight sm:text-5xl">
-          Projets réalisés
+          Projets académiques réalisés
         </h1>
         <div class="w-16 h-1 bg-indigo-500 mx-auto rounded-full mt-4"></div>
       </div>

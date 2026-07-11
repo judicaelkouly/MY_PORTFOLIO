@@ -18,7 +18,15 @@
           J'allie expertise en architecture back-end robuste et maîtrise des interfaces utilisateur performantes
           pour livrer des solutions évolutives, fiables et orientées résultats.
           Ma mission : traduire les enjeux métiers complexes en produits numériques à forte valeur ajoutée.
+          
         </p>
+        <a
+                href="/CV_JUDICAEL.pdf"
+                download="CV_JUDICAEL.pdf"
+                class="inline-block mt-6 bg-gradient-to-r from-indigo-600 to-[#DDD9FF] text-white font-bold py-2 px-6 rounded-full hover:from-indigo-700 hover:to-[#CCC5FF] transition-all duration-300 shadow-lg shadow-indigo-500/20 text-center"
+          >
+                Mon CV
+          </a>
       </div>
     </section>
 
