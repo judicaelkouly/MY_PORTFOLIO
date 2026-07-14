@@ -57,7 +57,7 @@
     <!-- Sidebar -->
   <aside :class="[
     'fixed md:static inset-y-0 left-0 z-30',
-    'w-[280px] md:max-lg:w-[200px] lg:w-[300px]', /* ← Applique 200px UNIQUEMENT sur tablette */
+    'w-[280px] md:max-lg:w-[200px] lg:w-[300px]',
     'bg-surface border-r border-custom flex flex-col transition-transform duration-300',
     sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
 ]">
@@ -136,7 +136,6 @@
     </div>
   </header>
 
-  <!-- Un seul conteneur scrollable pour tout le contenu -->
   <div class="flex-1 overflow-y-auto p-5 sm:p-8" ref="scrollArea">
     <div class="max-w-[1400px] mx-auto">
 
@@ -144,60 +143,35 @@
        <div v-show="activeTab === 'about'" class="view-fade">
         <div class="">
 
-        <!-- card typedWel-->
-<div class="nhost-card w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-  <div class="card-glow"></div>
-  <div class="card-grid"></div>
-
-  <!-- Header : Logo et bouton GitHub -->
-  <div class="card-header">
-    <div class="brand-wrapper">
-      <div class="logo-container">
-        <Icon icon="material-icon-theme:vscode" width="25"/>
-      </div>
-      <span class="brand-text">Développeur Full-Stack</span>
+<aside class="bg-black text-white p-6 border border-custom rounded-lg w-full max-w-lg font-mono mx-auto">
+  <div class="flex justify-between items-center">
+    <div class="flex space-x-2">
+      <div class="w-3 h-3 rounded-full bg-red-500"></div>
+      <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+      <div class="w-3 h-3 rounded-full bg-green-500"></div>
     </div>
-
-    <div class="action-buttons">
-      <a class="btn-icon" aria-label="View on GitHub" href="https://github.com/judicaelkouly">
-        <svg class="icon github" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
-          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-        </svg>
-      </a>
-    </div>
+    <!-- Point vert et "Disponible" alignés sur la même ligne -->
+    <p class="text-[12px] flex items-center gap-2">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+      </span>
+      <span>Disponible</span>
+    </p>
   </div>
-
-  <!-- Body : Contenu principal -->
-  <div class="card-body">
-    <div class="repo-title">{{ typedWel }}<span class="blinking-cursor"></span></div>
-
-    <!-- Ligne de contact et statut (Flexbox alignment) -->
-    <div class="tag-wrapper flex justify-between items-center w-full mt-2">
-
-      <!-- Groupe de boutons à gauche -->
-      <div class="flex items-center space-x-2">
-        <a href="mailto:judicael.kouli@epitech.eu"><span class="badge badge-ts"><Icon icon="ic:outline-email" width="25"/></span></a>
-        <a href="https://www.linkedin.com/in/kouli"><span class="badge badge-ts"><Icon icon="mdi:linkedin" width="25"/></span></a>
-      </div>
-        
-      <!-- Statut "Disponible" propulsé à droite -->
-      <div class="flex items-center space-x-2 text-[12px] font-mono text-slate-400">
-        <span class="relative flex h-2 w-2">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-        </span>
-        <span>Disponible</span>
-      </div>
-
-    </div>
+  <div class="mt-4">
+    <p class="text-green-400">$ judicael@judicael: ~</p>
+    <p class="text-white text-center">{{ typedWel }}</p>
+    <p class="text-green-400">$</p>
   </div>
-</div>
+</aside>
+
 
 
 
     <div class=" w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h1 class="">
-            <span class="text-xs ">Je suis </span> <br><span class="text-[#00e5ff] text-4xl md:text-6xl font-bold mb-4"> Judicael Kouli</span>
+            <span class="text-xl sacramento-regular">Je suis </span> <br><span class="text-[#00e5ff] text-4xl md:text-6xl font-bold mb-4"> Judicael Kouli</span>
         </h1>
 
     </div>
@@ -284,13 +258,17 @@ function useTypewriter(phrases) {
 
 const typedText = useTypewriter([
   'Développeur Full-Stack Junior',
-  'Concepteur d’Applications Web'
+  'Concepteur d’Applications Web',
+
+
 ])
 
 const typedWel = useTypewriter([
-  'Bienvenue sur mon porfolio',
-  'Propulsez votre présence digitale',
-  'Concevoir des produits à forte valeur ajoutée'
+  'Bienvenue sur mon portfolio.',
+  'Développeur Fullstack.',
+  'Du design à la base de données.',
+  'Des applications fluides et performantes.',
+  'Transformons vos idées en code.'
 ])
 
 //  Theme
@@ -452,6 +430,14 @@ onBeforeUnmount(() => {
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
 
 /*----Card presentation------*/
 /* From Uiverse.io by pharmacist-sabot */
@@ -486,87 +472,17 @@ onBeforeUnmount(() => {
 
 /* Component Styles */
 .nhost-card {
-  --bg-color: #0c111d;
-  --card-border: #1f2937;
-  --text-primary: #f3f4f6;
-  --text-secondary: #9ca3af;
-  --accent-color: #0052cc;
-  --accent-glow: rgba(0, 82, 204, 0.35);
-  --brand-gradient: linear-gradient(135deg, #0052cc, #2684ff);
 
-  font-family: "Inter", system-ui, sans-serif;
+
   width: 100%;
-  max-width: 400px;
-  background-color: var(--bg-color);
-  border: 1px solid var(--card-border);
-  border-radius: 16px;
-  padding: 24px;
+  max-width: 600px;
+
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
-  transition:
-    transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
+
   z-index: 1;
 }
 
-.nhost-card:hover {
-  transform: translateY(-4px) scale(1.01);
-  box-shadow:
-    0 20px 40px -5px rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(38, 132, 255, 0.3);
-  border-color: rgba(38, 132, 255, 0.5);
-}
-
-.card-grid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.05) 1px,
-      transparent 1px
-    ),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 30px 30px;
-  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
-  pointer-events: none;
-  z-index: -2;
-  transition: opacity 0.5s ease;
-  opacity: 0.5;
-}
-
-.nhost-card:hover .card-grid {
-  animation: grid-move 20s linear infinite;
-  opacity: 0.8;
-}
-
-.card-glow {
-  position: absolute;
-  top: -50px;
-  right: -50px;
-  width: 150px;
-  height: 150px;
-  background: radial-gradient(
-    circle,
-    var(--accent-glow) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-  filter: blur(40px);
-  z-index: -1;
-  transition: all 0.5s ease;
-}
-
-.nhost-card:hover .card-glow {
-  transform: scale(1.5);
-  background: radial-gradient(
-    circle,
-    rgba(38, 132, 255, 0.4) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
 
 /* Header Section */
 .card-header {

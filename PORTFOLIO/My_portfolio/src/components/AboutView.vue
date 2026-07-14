@@ -18,7 +18,7 @@
           J'allie expertise en architecture back-end robuste et maîtrise des interfaces utilisateur performantes
           pour livrer des solutions évolutives, fiables et orientées résultats.
           Ma mission : traduire les enjeux métiers complexes en produits numériques à forte valeur ajoutée.
-          
+
         </p>
         <a
                 href="/CV_JUDICAEL.pdf"
@@ -30,7 +30,98 @@
       </div>
     </section>
 
-    <!-- Section Intérêts Personnels -->
+
+    <!-- Section Services -->
+    <section class="py-20 max-w-6xl mx-auto px-6">
+      <div class="container mx-auto">
+
+        <div class="flex items-center justify-center lg:justify-start gap-4 mb-12">
+          <Icon icon="eos-icons:service" width="45" class="shrink-0" color="cyan"/>
+          <h2 class="text-3xl text-[#00e5ff] font-bold">Ce que je peux faire pour vous</h2>
+        </div>
+
+        <!-- Grille de Services -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+
+          <!-- Service 01 -->
+          <div class="group rounded-2xl p-8 bg-[#090d22]/40 border border-slate-800/60 hover:border-cyan-500/30  transition-all duration-300 flex flex-col justify-between min-h-[250px]">
+            <div>
+              <span class="text-xs font-mono text-cyan-500/80 font-bold block mb-3">01</span>
+              <h3 class="text-2xl font-bold mb-3 text-slate-100 group-hover:text-white transition-colors">Sites Web & Applications</h3>
+              <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-6">
+                  Je transforme vos idées en plateformes web fluides et performantes. Des landing pages à fort taux de conversion aux dashboards complexes,
+                  je conçois des solutions sur-mesure taillées pour propulser votre business.
+              </p>
+            </div>
+            <!-- Badges technologiques -->
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">NestJS</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">React</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Vue.js</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Tailwind CSS</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">HTML/CSS</span>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+          <div class="group rounded-2xl p-8 bg-[#090d22]/40 border border-slate-800/60 hover:border-cyan-500/30 transition-all duration-300 flex flex-col justify-between min-h-[250px]">
+            <div>
+              <span class="text-xs font-mono text-cyan-500/80 font-bold block mb-3">02</span>
+              <h3 class="text-2xl font-bold mb-3 text-slate-100 group-hover:text-white transition-colors">API & Backend</h3>
+              <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-6">
+              Conception d'architectures serveurs robustes, d'API sécurisées et de bases de données optimisées pour garantir la stabilité et la croissance sans limites de vos plateformes.
+              </p>
+            </div>
+            <!-- Badges technologiques -->
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">NestJS</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Laravel</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+          <div class="group rounded-2xl p-8 bg-[#090d22]/40 border border-slate-800/60 hover:border-cyan-500/30 transition-all duration-300 flex flex-col justify-between min-h-[250px]">
+            <div>
+              <span class="text-xs font-mono text-cyan-500/80 font-bold block mb-3">03</span>
+              <h3 class="text-2xl font-bold mb-3 text-slate-100 group-hover:text-white transition-colors">E-commerce & Marketing</h3>
+              <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-6">
+                Conception de boutiques en ligne fluides, stratégies de conversion, SEO local et optimisation du parcours client pour maximiser vos ventes.
+              </p>
+            </div>
+            <!-- Badges technologiques -->
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">E-commerce</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">SEO</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Digital Strategy</span>
+            </div>
+          </div>
+
+          <!-- Service 04 -->
+          <div class="group rounded-2xl p-8 bg-[#090d22]/40 border border-slate-800/60 hover:border-cyan-500/30 transition-all duration-300 flex flex-col justify-between min-h-[250px]">
+            <div>
+              <span class="text-xs font-mono text-cyan-500/80 font-bold block mb-3">04</span>
+              <h3 class="text-2xl font-bold mb-3 text-slate-100 group-hover:text-white transition-colors">Interfaces UI/UX </h3>
+              <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-6">
+                Je crée des designs interactifs qui captivent dès le premier regard. En alliant esthétique moderne, micro-animations fluides et ergonomie intuitive,
+                je conçois des interfaces pensées pour le confort et l'engagement de vos utilisateurs.
+            </p>
+            </div>
+            <!-- Badges technologiques -->
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Bootstrap</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Tailwind CSS</span>
+              <span class="text-xs font-mono bg-cyan-500/5 text-cyan-400/80 border border-cyan-500/10 px-3 py-1 rounded">Figma</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section Intérêts Personnels -->
+
     <section class="bg-animated cyber-grid py-16 relative overflow-hidden max-w-6xl mx-auto px-4">
       <div class="container mx-auto">
         <!-- <h2 class="text-3xl text-[#00e5ff] font-bold mb-12 text-center lg:text-left">Intérêts personnels</h2> -->
@@ -106,10 +197,10 @@
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
                   <Icon icon="mdi:code" width="22" class="text-gray-900"/>
                 </div>
-                <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2025-2026</time>
+                <time class="sacramento-regular text-xl text-[#00e5ff] md:w-28 md:text-right block">2025-2026</time>
               </div>
             </div>
-            <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
+            <div class="p-5 rounded-2xl border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
               <h3 class="text-lg font-bold text-white mb-1">Développeur Full-Stack</h3>
               <p class="text-sm text-cyan-400 font-medium mb-2">We.Code — Formation Intensive</p>
               <p class="text-sm text-slate-300 leading-relaxed">
@@ -126,10 +217,10 @@
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
                   <Icon icon="maki:college" width="22" class="text-gray-900"/>
                 </div>
-                <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2024-2025</time>
+                <time class="sacramento-regular text-xl text-[#00e5ff] md:w-28 md:text-right block">2024-2025</time>
               </div>
             </div>
-            <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 border-custom transition-colors">
+            <div class="p-5 rounded-2xl border border-custom shadow-lg ml-14 md:ml-44 border-custom transition-colors">
               <h3 class="text-lg font-bold text-white mb-1">Licence en E-commerce & Marketing Digital</h3>
               <p class="text-sm text-cyan-400 font-medium mb-2">Université Virtuelle de Côte d'Ivoire (UVCI)</p>
               <p class="text-sm text-slate-300 leading-relaxed">
@@ -146,10 +237,10 @@
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-xl md:order-1 border border-cyan-500/20">
                   <Icon icon="map:university" width="22" class="text-gray-900"/>
                 </div>
-                <time class="font-medium text-xl text-[#00e5ff] md:w-28 md:text-right block">2021-2022</time>
+                <time class="sacramento-regular text-xl text-[#00e5ff] md:w-28 md:text-right block">2021-2022</time>
               </div>
             </div>
-            <div class="p-5 rounded border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
+            <div class="p-5 rounded-2xl border border-custom shadow-lg ml-14 md:ml-44 hover:border-custom transition-colors">
              <h3 class="text-lg font-bold text-white mb-1">Baccalauréat (BAC)</h3>
               <p class="text-sm text-cyan-400 font-medium mb-2">Lycée Moderne de Bondoukou</p>
               <p class="text-sm text-slate-300">
@@ -174,6 +265,16 @@ import FooterView from './FooterView.vue';
 </script>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 /* Gradient text */
 .gradient-text {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -181,6 +282,7 @@ import FooterView from './FooterView.vue';
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 
 /* Animated gradient border */
 .gradient-border {

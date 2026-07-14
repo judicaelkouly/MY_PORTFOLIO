@@ -22,7 +22,7 @@
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
 
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It <span class="sacramento-regular">(Seul)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                  <span class="font-bold">Application de Gestion de Notes</span> <br>
                   Développement complet d'une interface dynamique de gestion de notes connectée en temps réel à une API REST externe. <br>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
-          <img src="/public/pos.png" alt="Yowl_Project_image" class="w-full aspect-video object-cover" />
+          <img src="/public/yowl.jpeg" alt="Yowl_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
               <div class="tech-icons">
@@ -56,7 +56,7 @@
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
                 <div class="tech-icon"><Icon icon="skill-icons:css" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">YOWL</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">OpenTalk <span class="sacramento-regular">(Collaboratif)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Application web participative et centralisée visant à décentraliser les espaces de discussion et à permettre
                 aux utilisateurs de commenter n'importe quel contenu ou site web de l'Internet. <br>
@@ -71,7 +71,7 @@
                   <span>Github</span>
                 </button>
               </a>
-              <a href="#" class="inline-block">
+              <a href="https://opentalk-f.vercel.app" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16"/>
                   <span>Visiter</span>
@@ -90,7 +90,7 @@
                 <div class="tech-icon"><Icon icon="logos:nextjs-icon" width="24"/></div>
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Gorge Movies</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Gorge Movies <span class="sacramento-regular">(Collaboratif)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Plateforme web d'exploration, de notation et de critique de films inspirée du célèbre site Rotten Tomatoes. <br>
                 <span class="font-bold">Technologies :</span> Nest.js, Next.js, Tailwind CSS, MongoDB, Git. <br>
@@ -123,7 +123,7 @@
               <div class="tech-icons">
                 <div class="tech-icon"><Icon icon="devicon:reactnative" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">TrellTech</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">TrellTech <span class="sacramento-regular">(Collaboratif)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
               Application mobile pour la gestion de tâches, axée sur
               la consommation d'API sécurisées de Trello et une expérience utilisateur (UI/UX) soignée. <br>
@@ -156,7 +156,7 @@
                 <div class="tech-icon"><Icon icon="skill-icons:typescript" width="24"/></div>
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">MyContacts</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">MyContacts <span class="sacramento-regular">(Seul)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Une application web moderne et sécurisée pour centraliser, rechercher et gérer ses contacts en un clic. Développée
                 avec une architecture CRUD complète connectée à une API REST. <br>
@@ -191,7 +191,7 @@
                 <div class="tech-icon"><Icon icon="selfhst:mongodb" width="24"/></div>
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">My Show Time</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">My Show Time <span class="sacramento-regular">(Collaboratif)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Une plateforme web complète de billetterie événementielle propulsée par NestJS et MongoDB,
                 intégrant une gestion fine des utilisateurs (alertes, QR codes) et un panneau d'administration basé sur les données. <br>
@@ -224,7 +224,7 @@
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
                 <div class="tech-icon"><Icon icon="skill-icons:css" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Mon Portfolio</p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Mon Portfolio <span class="sacramento-regular">(Seul)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Vitrine numérique personnelle conçue pour présenter mes compétences techniques, mes projets réalisés et mon parcours de développeur. <br>
                 <span class="font-bold">Technologies :</span> Vue.js 3, Tailwind CSS, JavaScript. <br>
@@ -263,6 +263,13 @@ import FooterView from './FooterView.vue';
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
 
 :root {
   --cyan: #00e5ff;

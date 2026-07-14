@@ -57,6 +57,13 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
 /* Ajout d'une ombre subtile au survol des liens réseaux */
 a:hover {
   box-shadow: 0 0 12px rgba(0, 229, 255, 0.2);
