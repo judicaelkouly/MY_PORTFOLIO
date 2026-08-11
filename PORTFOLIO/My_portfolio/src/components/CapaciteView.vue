@@ -6,7 +6,7 @@
         Compétences
       </h1>
       <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto opacity-90">
-        L'informatique est vaste et les langages naissent presque à tout moment, je fais tout mon possible pour être à la hauteur afin de répondre au besoin de mes clients et d'apporter de l'aide aux nouveaux développeurs.
+        Dans un univers informatique en perpétuelle mutation, l'agilité est une force. J'allie une veille technologique constante à un engagement fort : propulser votre business grâce à des outils modernes.
       </p>
       <div class="w-16 h-1 mt-6 rounded-full bg-indigo-500"></div>
     </div>
