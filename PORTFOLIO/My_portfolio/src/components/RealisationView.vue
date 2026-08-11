@@ -181,7 +181,7 @@
           </div>
         </div>
 
-        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+        <!-- <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
@@ -214,7 +214,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/port.jpeg" alt="Portfolio_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
