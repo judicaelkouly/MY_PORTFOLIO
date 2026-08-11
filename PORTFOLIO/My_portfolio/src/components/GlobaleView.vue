@@ -100,7 +100,7 @@
   </div>
 
   <!-- User Profile -->
-  <div class="p-5 border-t border-custom shrink-0 bg-[var(--bg)] m-4 rounded-xl">
+  <!-- <div class="p-5 border-t border-custom shrink-0 bg-[var(--bg)] m-4 rounded-xl">
     <div class="flex items-center gap-3">
       <div
         class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-primary-custom border-2 border-surface shadow-sm"
@@ -109,7 +109,7 @@
         JK
       </div>
     </div>
-  </div>
+  </div> -->
 </aside>
 
     <!-- Overlay mobile -->
