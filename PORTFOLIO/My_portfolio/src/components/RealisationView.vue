@@ -22,7 +22,7 @@
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
 
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It <span class="sacramento-regular">(Seul)</span></p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Post_It <span class="sacramento-regular">(Solo)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                  <span class="font-bold">Application de Gestion de Notes</span> <br>
                   Développement complet d'une interface dynamique de gestion de notes connectée en temps réel à une API REST externe. <br>
@@ -156,7 +156,7 @@
                 <div class="tech-icon"><Icon icon="skill-icons:typescript" width="24"/></div>
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">MyContacts <span class="sacramento-regular">(Seul)</span></p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">MyContacts <span class="sacramento-regular">(Solo)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Une application web moderne et sécurisée pour centraliser, rechercher et gérer ses contacts en un clic. Développée
                 avec une architecture CRUD complète connectée à une API REST. <br>
@@ -181,32 +181,33 @@
           </div>
         </div>
 
-        <!-- <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
-          <img src="/public/pos.png" alt="PostIt_Project_image" class="w-full aspect-video object-cover" />
+        <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
+          <img src="/public/koulystore.png" alt="KoulyStore_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
             <div>
               <div class="tech-icons">
-                <div class="tech-icon"><Icon icon="devicon:nestjs" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:laravel" width="24"/></div>
+                <div class="tech-icon"><Icon icon="devicon:react" width="24"/></div>
                 <div class="tech-icon"><Icon icon="logos:nodejs-icon" width="24"/></div>
-                <div class="tech-icon"><Icon icon="selfhst:mongodb" width="24"/></div>
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">My Show Time <span class="sacramento-regular">(Collaboratif)</span></p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Kouly'Store <span class="sacramento-regular">(Solo)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Une plateforme web complète de billetterie événementielle propulsée par NestJS et MongoDB,
-                intégrant une gestion fine des utilisateurs (alertes, QR codes) et un panneau d'administration basé sur les données. <br>
-                <span class="font-bold">Technologies :</span> NestJS, MongoDB, Node.js. <br>
-                <span class="font-bold">Fonctionnalités clés :</span> Recherche et filtres, système de favoris avec alertes, et création automatique de QR codes pour les billets.
+                Application e-commerce full-stack performante et responsive, intégrant un catalogue dynamique,
+                la gestion de panier en temps réel et un tunnel d'achat fluide, sans moyens de paiement.
+                <br>
+                <span class="font-bold">Technologies :</span> Laravel, React, Node.js, Tailwind CSS. <br>
+                <span class="font-bold">Fonctionnalités clés :</span> Catalogue de produits, gestion de panier, authentification sécurisée, interface utilisateur moderne et responsive.
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="/forbiden" class="inline-block">
+              <a href="https://github.com/KoulyStore" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
                 </button>
               </a>
-              <a href="" class="inline-block">
+              <a href="https://koulystore.vercel.app" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16" />
                   <span>Visiter</span>
@@ -214,7 +215,8 @@
               </a>
             </div>
           </div>
-        </div> -->
+        </div>
+
         <div class="w-full max-w-[360px] border-2 border-cyan-500/10 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden flex flex-col">
           <img src="/public/port.jpeg" alt="Portfolio_Project_image" class="w-full aspect-video object-cover" />
           <div class="px-5 py-5 flex flex-col flex-1 justify-between">
@@ -224,7 +226,7 @@
                 <div class="tech-icon"><Icon icon="devicon:tailwindcss" width="24"/></div>
                 <div class="tech-icon"><Icon icon="skill-icons:css" width="24"/></div>
               </div>
-              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Mon Portfolio <span class="sacramento-regular">(Seul)</span></p>
+              <p class="text-xl font-bold text-white truncate block capitalize mb-2">Mon Portfolio <span class="sacramento-regular">(Solo)</span></p>
               <p class="text-gray-300 text-sm leading-relaxed mb-6">
                 Vitrine numérique personnelle conçue pour présenter mes compétences techniques, mes projets réalisés et mon parcours de développeur. <br>
                 <span class="font-bold">Technologies :</span> Vue.js 3, Tailwind CSS, JavaScript. <br>
