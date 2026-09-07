@@ -201,13 +201,13 @@
               </p>
             </div>
             <div class="flex items-center justify-between gap-4 mt-auto">
-              <a href="https://github.com/KoulyStore" class="inline-block">
+              <a href="https://github.com/judicaelkouly/KoulyStore" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="ri:github-fill" width="16" />
                   <span>Github</span>
                 </button>
               </a>
-              <a href="https://koulystore.vercel.app" class="inline-block">
+              <a href="https://koulystore.onrender.com" class="inline-block">
                 <button class="btn-github">
                   <Icon icon="solar:link-outline" width="16" />
                   <span>Visiter</span>
